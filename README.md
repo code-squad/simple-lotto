@@ -8,6 +8,8 @@ simple app for node.js and mysql
 
 ```bash
 sudo apt install nodejs
+sudo apt install npm
+
 git clone https://github.com/code-squad/simple-lotto/
 cd simple-lotto
 cp sample.env .env
