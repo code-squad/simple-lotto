@@ -9,6 +9,7 @@ simple app for node.js and mysql
 ```bash
 sudo apt install nodejs
 sudo apt install npm
+sudo apt install mysql-client
 
 git clone https://github.com/code-squad/simple-lotto/
 cd simple-lotto
@@ -30,6 +31,12 @@ DB_USER="admin"
 DB_PW="Password Here"
 ```
 
+### Setup DB
+
+```bash
+mysql -u db-username -p db-name -h db-host < init.sql
+```
+
 ### start
 
 ```
@@ -39,19 +46,21 @@ npm start
 ### Example
 
 ```
-Type some message:(delete: dd, quit: q!)>
-a
-No. 4    This is first message!    [1,15,18,32,33,41]    Mon Aug 29 2022 07:45:34 GMT+0000 (Coordinated Universal Time)
-No. 5    hohoho    [1,22,27,36,39,45]    Mon Aug 29 2022 07:45:37 GMT+0000 (Coordinated Universal Time)
-No. 6    zzzz    [1,2,9,24,27,29]    Mon Aug 29 2022 07:45:38 GMT+0000 (Coordinated Universal Time)
-No. 7    kkk    [1,4,8,30,32,36]    Mon Aug 29 2022 07:45:39 GMT+0000 (Coordinated Universal Time)
-No. 8    bb    [1,7,14,15,28,33]    Mon Aug 29 2022 07:45:42 GMT+0000 (Coordinated Universal Time)
-No. 9    a    [1,22,23,35,36,39]    Mon Aug 29 2022 07:45:42 GMT+0000 (Coordinated Universal Time)
+Type some message:(dd : delete, q! : quit, 1 ~ 99 : auto generate)
+> Give me 1st!
+No. 1    Hello~    [1,2,3,4,5,6]    Mon Aug 29 2022 09:48:55 GMT+0900 (대한민국 표준시)
+No. 2    Nice weather!    [11,12,13,14,15,16]    Mon Aug 29 2022 09:48:55 GMT+0900 (대한민국 표준시)
+No. 3    Auto Generate Lotto    [1,13,25,26,29,36]    Mon Aug 29 2022 09:49:10 GMT+0900 (대한민국 표준시)
+No. 4    Auto Generate Lotto    [1,16,24,36,41,44]    Mon Aug 29 2022 09:49:10 GMT+0900 (대한민국 표준시)
+No. 5    Auto Generate Lotto    [1,8,24,32,33,41]    Mon Aug 29 2022 09:49:10 GMT+0900 (대한민국 표준시)
+No. 6    Auto Generate Lotto    [1,21,23,27,31,44]    Mon Aug 29 2022 09:49:10 GMT+0900 (대한민국 표준시)
+No. 7    Auto Generate Lotto    [1,8,18,19,24,40]    Mon Aug 29 2022 09:49:10 GMT+0900 (대한민국 표준시)
+No. 8    Give me 1st!    [1,10,29,37,38,39]    Mon Aug 29 2022 09:49:32 GMT+0900 (대한민국 표준시)
 ------------------------------------------------------
-전부 6 개의 기록이 있습니다.
+전부 8 개의 기록이 있습니다.
 
-Type some message:(number: generate n lotto,delete: dd, quit: q!)>
-q!
+Type some message:(dd : delete, q! : quit, 1 ~ 99 : auto generate)
+
 오늘도 좋은 하루 되세요!
 ```
 
