@@ -1,0 +1,23 @@
+{
+  "name": "simple-lotto",
+  "version": "1.0.0",
+  "description": "Simple Lotto using mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-squad/simple-lotto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-squad/simple-lotto/issues"
+  },
+  "homepage": "https://github.com/code-squad/simple-lotto#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "mysql2": "^2.3.3"
+  }
+}
