@@ -6,7 +6,7 @@ simple app for node.js and mysql
 
 ### Setup (Ubuntu Linux)
 
-``
+```bash
 sudo apt install nodejs
 git clone https://github.com/code-squad/simple-lotto/
 cd simple-lotto
@@ -37,4 +37,5 @@ npm start
 ### Example
 
 ```
+
 ```
