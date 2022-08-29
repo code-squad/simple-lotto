@@ -44,6 +44,10 @@ const mydb = {
       l,
     ]);
   },
+
+  clear: async function () {
+    await pool.execute("delete from lotto");
+  },
 };
 
 module.exports.mydb = mydb;
