@@ -15,7 +15,6 @@ const pool = mysql.createPool({
 
 async function readLottoTable(pool) {
   const [rows, fields] = await pool.query("select * from lotto");
-  console.log("Lotto Table Check ok");
 }
 
 (async function init(pool) {
@@ -34,7 +33,7 @@ const mydb = {
     const [rows, fields] = await pool.query("select * from lotto");
     rows.forEach((row) => {
       console.log(
-        `${row.id}번: "${row.message}", ${row.nums.nums}, ${row.created}`
+        `No. ${row.id}    ${row.message}    [${row.nums.nums}]    ${row.created}`
       );
     });
   },
