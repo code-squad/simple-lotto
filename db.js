@@ -47,4 +47,4 @@ const mydb = {
   },
 };
 
-module.export = mydb;
+module.exports.mydb = mydb;
