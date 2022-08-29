@@ -5,8 +5,8 @@ for (var i = 1; i <= 45; i++) {
 }
 
 function shuffle() {
-  for (let i = 45; i > 0; i--) {
-    const j = (parseInt(Math.random() * 4321) % i) + 1;
+  for (let i = 44; i >= 0; i--) {
+    const j = (parseInt(Math.random() * 4321) % i);
     const temp = a[i];
     a[i] = a[j];
     a[j] = temp;

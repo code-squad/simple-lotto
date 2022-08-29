@@ -47,20 +47,37 @@ npm start
 
 ```
 Type some message:(dd : delete, q! : quit, 1 ~ 99 : auto generate)
-> Give me 1st!
-No. 1    Hello~    [1,2,3,4,5,6]    Mon Aug 29 2022 09:48:55 GMT+0900 (대한민국 표준시)
-No. 2    Nice weather!    [11,12,13,14,15,16]    Mon Aug 29 2022 09:48:55 GMT+0900 (대한민국 표준시)
-No. 3    Auto Generate Lotto    [1,13,25,26,29,36]    Mon Aug 29 2022 09:49:10 GMT+0900 (대한민국 표준시)
-No. 4    Auto Generate Lotto    [1,16,24,36,41,44]    Mon Aug 29 2022 09:49:10 GMT+0900 (대한민국 표준시)
-No. 5    Auto Generate Lotto    [1,8,24,32,33,41]    Mon Aug 29 2022 09:49:10 GMT+0900 (대한민국 표준시)
-No. 6    Auto Generate Lotto    [1,21,23,27,31,44]    Mon Aug 29 2022 09:49:10 GMT+0900 (대한민국 표준시)
-No. 7    Auto Generate Lotto    [1,8,18,19,24,40]    Mon Aug 29 2022 09:49:10 GMT+0900 (대한민국 표준시)
-No. 8    Give me 1st!    [1,10,29,37,38,39]    Mon Aug 29 2022 09:49:32 GMT+0900 (대한민국 표준시)
+dd
+이전 기록을 지웁니다.
+No. 35    This is first message!    [5,11,21,34,43,44]    Mon Aug 29 2022 09:52:22 GMT+0900 (대한민국 표준시)
 ------------------------------------------------------
-전부 8 개의 기록이 있습니다.
+전부 1 개의 기록이 있습니다.
 
 Type some message:(dd : delete, q! : quit, 1 ~ 99 : auto generate)
+5
+No. 35    This is first message!    [5,11,21,34,43,44]    Mon Aug 29 2022 09:52:22 GMT+0900 (대한민국 표준시)
+No. 36    Auto Generate Lotto    [7,22,23,29,35,43]    Mon Aug 29 2022 09:52:24 GMT+0900 (대한민국 표준시)
+No. 37    Auto Generate Lotto    [2,3,11,12,26,45]    Mon Aug 29 2022 09:52:24 GMT+0900 (대한민국 표준시)
+No. 38    Auto Generate Lotto    [9,13,19,20,22,38]    Mon Aug 29 2022 09:52:24 GMT+0900 (대한민국 표준시)
+No. 39    Auto Generate Lotto    [7,13,16,23,26,44]    Mon Aug 29 2022 09:52:24 GMT+0900 (대한민국 표준시)
+No. 40    Auto Generate Lotto    [5,18,23,28,40,]    Mon Aug 29 2022 09:52:24 GMT+0900 (대한민국 표준시)
+------------------------------------------------------
+전부 6 개의 기록이 있습니다.
 
+Type some message:(dd : delete, q! : quit, 1 ~ 99 : auto generate)
+Give me 1st!
+No. 35    This is first message!    [5,11,21,34,43,44]    Mon Aug 29 2022 09:52:22 GMT+0900 (대한민국 표준시)
+No. 36    Auto Generate Lotto    [7,22,23,29,35,43]    Mon Aug 29 2022 09:52:24 GMT+0900 (대한민국 표준시)
+No. 37    Auto Generate Lotto    [2,3,11,12,26,45]    Mon Aug 29 2022 09:52:24 GMT+0900 (대한민국 표준시)
+No. 38    Auto Generate Lotto    [9,13,19,20,22,38]    Mon Aug 29 2022 09:52:24 GMT+0900 (대한민국 표준시)
+No. 39    Auto Generate Lotto    [7,13,16,23,26,44]    Mon Aug 29 2022 09:52:24 GMT+0900 (대한민국 표준시)
+No. 40    Auto Generate Lotto    [5,18,23,28,40,]    Mon Aug 29 2022 09:52:24 GMT+0900 (대한민국 표준시)
+No. 41    Give me 1st!    [6,8,17,22,23,35]    Mon Aug 29 2022 09:52:28 GMT+0900 (대한민국 표준시)
+------------------------------------------------------
+전부 7 개의 기록이 있습니다.
+
+Type some message:(dd : delete, q! : quit, 1 ~ 99 : auto generate)
+q!
 오늘도 좋은 하루 되세요!
 ```
 
