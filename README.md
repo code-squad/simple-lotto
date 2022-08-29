@@ -50,7 +50,7 @@ No. 9    a    [1,22,23,35,36,39]    Mon Aug 29 2022 07:45:42 GMT+0000 (Coordinat
 ------------------------------------------------------
 전부 6 개의 기록이 있습니다.
 
-Type some message:(delete: dd, quit: q!)>
+Type some message:(number: generate n lotto,delete: dd, quit: q!)>
 q!
 오늘도 좋은 하루 되세요!
 ```
