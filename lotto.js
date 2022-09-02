@@ -15,14 +15,9 @@ function shuffle() {
 
 function lotto() {
   shuffle();
-  console.log(a)
   const l = a.slice(0, 6);
   l.sort((a, b) => a - b);
   return l;
-}
-
-for (let i = 0; i < 50; i++) {
-  console.log(lotto())
 }
 
 module.exports.lotto = lotto;

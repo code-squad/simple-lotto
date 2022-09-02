@@ -33,13 +33,14 @@ const mydb = {
     const [rows, fields] = await pool.query("select * from lotto");
     rows.forEach((row) => {
       console.log(
-        `No. ${row.id}    ${row.message}    [${row.nums.nums}]    ${row.created}`
+        `No. ${row.id}   ${row.name}    ${row.message}    [${row.nums.nums}]    ${row.created}`
       );
     });
   },
-  add: async function (message) {
+  add: async function (name, message) {
     const l = { nums: lotto() };
-    await pool.execute("insert into lotto(message, nums) values (?, ?)", [
+    await pool.execute("insert into lotto(name, message, nums) values (?, ?, ?)", [
+      name,
       message,
       l,
     ]);

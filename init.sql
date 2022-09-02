@@ -2,6 +2,7 @@ drop table if exists lotto;
 
 create table lotto(
     id int primary key auto_increment,
+    name varchar(64),
     message varchar(255),
     nums json,
     created timestamp default current_timestamp
